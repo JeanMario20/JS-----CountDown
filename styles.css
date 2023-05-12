@@ -1,0 +1,71 @@
+img {
+    width: 550px;
+    height: 350px;
+}
+
+h3 {
+    font-weight: bold;
+    color: blue;
+}
+
+article p {
+    color:grey
+}
+
+.section-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gift-img{
+    margin: 0;
+    margin-right: 2%;
+}
+
+.gift-info{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.gift-info h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.giveaway {
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+
+.deadline{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.deadline-format{
+    background-color: rgb(4, 82, 78);
+    margin: 10px 15px 0 0;
+    width: 70px;
+    height: 75px;
+    text-align: center;
+}
+
+.deadline-format h4{
+    margin:5px 0 0 0;
+    font-size: 30px;
+    color: white;
+}
+
+.deadline-format span{
+    font-size: 20px;
+    color: white;
+}
+
